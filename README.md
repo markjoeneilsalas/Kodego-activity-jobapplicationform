@@ -3,7 +3,7 @@
 kodego-wd51p-activity-job appilcation form</h1>
 <h3 align="center">Created from scratch through out learning in Kodego Bootcamp</h3>
 <img align="center" alt="Coding" width="400" src="Responsive desktop job application form.jpg">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=markjoeneilsalas&label=Profile%20views&color=0e75b6&style=flat" alt="markjoeneilsalas" /> </p>
+
 
 <h3 align="left">Using</h3>
 <p> PURE HTML WITH LANDING PAGES </p>
@@ -29,6 +29,8 @@ kodego-wd51p-activity-job appilcation form</h1>
 <p align="left">
 <a href="https://linkedin.com/in/mark joeneil salas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mark joeneil salas" height="30" width="40" /></a>
 <a href="https://fb.com/markjoenei" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="markjoenei" height="30" width="40" /></a>
+<a href = "https://github.com/markjoeneilsalas/"><img src="https://img.icons8.com/fluent/48/000000/github.png" height="30" width="40"/></a>
+</p>
 </p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=markjoeneilsalas&show_icons=true&locale=en&layout=compact" alt="markjoeneilsalas" /></p>
@@ -36,4 +38,9 @@ kodego-wd51p-activity-job appilcation form</h1>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=markjoeneilsalas&show_icons=true&locale=en" alt="markjoeneilsalas" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=markjoeneilsalas&" alt="markjoeneilsalas" /></p>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=markjoeneilsalas&label=Profile%20views&color=0e75b6&style=flat" alt="markjoeneilsalas" /> </p>
+<a><img src="https://img.shields.io/github/followers/markjoeneilsalas?label=Followers&style=social" alt="GitHub Badge"></a>
+</p>
+
 
