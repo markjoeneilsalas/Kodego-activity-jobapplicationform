@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <title>Job Application Form With Register Button</title>
+</head>
+<body>
+
+    <div class="hiring">
+        <img src="https://static.vecteezy.com/system/resources/previews/004/511/628/original/we-are-hiring-design-for-recruitment-poster-free-vector.jpg" height="500" width="500" alt="">
+    </div>
+
+<!--------Register Button---------->
+    <button class="applyButton btn btn-info btn-md" type="button" data-toggle="modal" data-target="#myModal">Apply Now! Register Here!</button>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" type="button">WELCOME!</button>
+                            <h4 class="modal-title">Job Application Form</h4>
+                        </div>
+                    <div class="modal-body">
+
+<!-----form start------->
+    <form id="form" class="form-group text-middle w-50 needs-validation" action="post" novalidate>
+        <p>Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the job Application Form.</p>
+                 <!----Emailand#-start---->
+            <div class="container-fluid  max-auto row form control w-100 p-2">
+                <div class="col-7">
+                    <label for="email">Email Address:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <div class="invalid-feedback">
+                            Please enter your email
+                        </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-5">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="number" class="form-control" id="phoneNumber" placeholder="Phone number" required>
+                <div class="invalid-feedback">
+                    Please enter your phone number
+                </div>
+            </div>
+            <br>
+<!----Emailand#--end--->
+<!----Fullname start----->
+            <div class="container-fluid  max-auto row form control w-100 p-2">
+                <div class="col-4">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+                    <div class="invalid-feedback">
+                        Please enter your first name
+                    </div>
+                </div>
+                <br>
+            <div class="col-4">
+                <label for="lastName">Last Name:</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+                <div class="invalid-feedback">
+                    Please enter your last name
+                </div>
+            </div>
+            <br>
+            <div class="col-2">
+                <label for="middleName">Middle Name:</label>
+                <input type="text" class="form-control" id="middleName" placeholder="Middle name" required>
+                <div class="invalid-feedback">
+                    Please enter your middle name
+                </div>
+            </div>
+            <br>
+            <div class="col-2">
+                <label for="suffix">Suffix:</label>
+                <input type="text" class="form-control" id="suffix" placeholder="Suffix" required>
+                <div class="invalid-feedback">
+                    Please enter your suffix
+                </div>
+            </div>
+            <br>
+                 <!----Fullname end----->
+                 <!----age/gender/status start----->
+                         <div class="container-fluid row form control w-100 p-2">
+                             <div class="col-5 p-5">
+                                 <label for="age">Age:</label>
+                                 <input type="number" class="form-control" id="age" placeholder="age" required>
+                             </div>
+                             <br>
+                             <div class="form-check col-1">
+                                 <label for="gender">Gender:</label>
+                                 <label for="gender"><input type="radio" name="gender" value="male" required>Male</label>
+                                 <label for="gender"><input type="radio" name="gender" value="female" required>Female</label>
+                             </div>
+                             <br>
+                             <div class="form-check col-1">
+                                 <label for="status">Status:</label>
+                                 <label for="status"><input type="radio" name="status" value="single" required>Single</label>
+                                 <label for="status"><input type="radio" name="status" value="married" required>Married</label>
+                             </div>
+                             <br>
+                             <div class="col-5">
+                                 <label for="middleName">Available Job Position:</label>
+                                 <input type="text" class="form-control" placeholder="Front-End Developer" disabled>
+                             </div>
+                         </div>
+                         <br>
+                 <!----age/gender/status end----->
+                 <!----employment status----->
+                         <div>
+                             <div class="container-fluid form-check align-middle">
+                                 <label for="status">What is your current employment status?</label>
+                                 <br>
+                                 <label for="status"><input type="checkbox" name="status" value="single" required>Worker</label>
+                                 <br>
+                                 <label for="status"><input type="checkbox" name="status" value="married" required>Employee</label>
+                                 <br>
+                                 <label for="status"><input type="checkbox" name="status" value="married" required>Self-employed</label>
+                             </div>
+                             <br>
+                             <div class="container-fluid col">
+                                <label for="date" class="form-label fw-bold">Available date</label>
+                                <div class="invalid-feedback">
+                                    select date
+                                </div>
+                                <select class="form-select form-control">
+                                    <option>- Select -</option>
+                                    <option>February 15 2023</option>
+                                    <option>February 30 2023</option>
+                                    <option>April 15 2023</option>
+                                    <option>April 30 2023</option>
+                                </select>
+                            </div>
+                            <br>
+                 <!----employment status-end---->
+                 <!----Resume/applications----->
+                             <div>
+                                     <div class="container-fluid form-group">
+                                       <label for="updateResume">Updated Resume:</label>
+                                       <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                       <label for="ApplicationLetter">Aplication Letter:</label>
+                                       <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                     </div>
+                             </div>
+                         </div>
+                        <br>
+                 <!----Resume/applications-end---->
+                 <!----place---->
+                         <div class="container-fluid row w-100 p-2">
+                             <div class="col-5">
+                                <label for="city">City:</label>
+                               <input type="text" class="form-control" placeholder="City" required>
+                             </div>
+                             <div class="col-5">
+                                <label for="city">State:</label>
+                               <input type="text" class="form-control" placeholder="State" required>
+                             </div>
+                             <div class="col-2">
+                                <label for="city">Zip:</label>
+                               <input type="text" class="form-control" placeholder="Zip" required>
+                             </div>
+                         </div>
+                 <!----place--end-->
+                         <br>
+                 <!----social accounts--->
+                         <div class="container-fluid d-grid">
+                            <div class="col-6">
+                            <label for="basic-url" class="form-label">Github Profile Link:</label>
+                            <div class="input-group">
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="https://">
+                            <label for="basic-url" class="form-label">LinkedIn Profile Link:</label>
+                            <div class="input-group">
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="https://">
+                            </div>
+                        </div>
+                 <!----social accounts-end-->
+                 <!-----button-------->
+                        <br>
+                         <div class=" d-grid gap-2 col-12 float-left">
+                            <center><button class="btn btn-dark" type="button"><a href="index.html">Reset</a></button></center>
+                         </div>
+                         <br>
+                         <div class="d-grid gap-2 col-12 text-middle">
+                             <center><button class="btn btn-dark" type="button"><a href="submitted.html">Apply</a></button></center>
+                         </div>
+                     </div>
+                 <!-----button---end----->
+                 </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict'
+      
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+      
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+      
+              form.classList.add('was-validated')
+            }, false)
+          })
+      })()
+    </script>
+</body>
+</html>
